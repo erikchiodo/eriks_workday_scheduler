@@ -4,13 +4,19 @@
 
 $(function () {});
 
-var saveBtn = $("button");
+var saveBtn = $(".saveBtn");
 saveBtn.on("click", function (event) {
-  console.log("Clicked");
+  var timeBlock = $(this).closest(".time-block");
+
+  // Code to commit Event to Local Storage
+  var textArea = $(this).find(".description");
+  const inputtedValue = textArea.val();
+  localStorage.setItem("Event", inputtedValue);
+  console.log(inputtedValue);
+
+  const storedTextAreaVal = localStorage.getItem("Event");
 });
-// var saveBtn = $("button");
-// saveBtn.on("click", function () {
-//   createEvent();
+
 // TODO: Add a listener for click events on the save button. This code should
 // use the id in the containing time-block as a key to save the user input in
 // local storage. HINT: What does `this` reference in the click listener
