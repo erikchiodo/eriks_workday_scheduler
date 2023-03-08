@@ -43,4 +43,5 @@ I've also taken a screenshot of the click events for each saved event with accom
 Additionally, please note that for these screenshots, I've set the currentTime var to 12 (corresponding to 12pm) just to show that my logical statements section works properly based on current time. My current time is dynamic and will capture the current time and update time block class.
 
 Link to Github Page: https://github.com/erikchiodo/eriks_workday_scheduler
+
 Link to Deployed App: https://erikchiodo.github.io/eriks_workday_scheduler/
