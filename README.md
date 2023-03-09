@@ -10,6 +10,9 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
+
+## Acceptance Criteria
+
 GIVEN I am using a daily planner to create a schedule:
 
     > WHEN I open the planner
@@ -32,7 +35,7 @@ GIVEN I am using a daily planner to create a schedule:
 
 ## Screenshots
 
-This is my home page. The events are saved in event storage, are editable and will retain their value each time you access the browser (meets then criteria for saved events persisting upon refreshing page). Also notice how the date is posted above in YYYY-MM-DD Format (meets then criteria for current day being displayd at the top of the calendar). I've created html elements for each hour of the workday (meets then criteria for standard business hours)
+This is my home page. The events are saved in event storage, are editable and will retain their value each time you access the browser (meets then criteria for saved events persisting upon refreshing page). Also notice how the date is posted above in YYYY-MM-DD Format (meets then criteria for current day being displayed at the top of the calendar). I've created html elements for each hour of the workday (meets then criteria for standard business hours)
 
 ![Screen Shot 2023-03-07 at 10 55 59 PM](https://user-images.githubusercontent.com/122952630/223626435-05b4d6ec-0381-4ba6-a5d2-de4bcfba6553.png)
 
